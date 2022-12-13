@@ -38,7 +38,7 @@ Windows:
 $ ./main.exe
 ```
 
-## Mexendo no vetor
+## Alterando a estrutura
 - Primeiramente é necessário criar uma estrutura do tipo vetor ordenado na função main do arquivo `main.c`. Para isso, basta chamar a função `VETORD_create` e passar como parâmetro: o tamanho do vetor que será criado e uma função de comparação.
 - Para adicionar elementos no vetor basta chamar a função `VETORD_add` e passar como parâmetro: a estrutura do vetor e um ponteiro void para o valor inteiro que será adicionado.
 - Para remover elementos no vetor basta chamar a função `VETORD_remove` e passar como parâmetro: a estrutura do vetor.
